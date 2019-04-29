@@ -1,4 +1,4 @@
-def gitUrl = 'git@github.com:bechampion/demo1.git'
+def gitUrl = 'https://github.com/bechampion/demo1'
 job('demo1') {
     scm {
         git(gitUrl)
