@@ -5,5 +5,6 @@ job('demo1') {
     }
     steps {
         shell('Running job demo1')
+        shell('cat demo1file')
     }
 }
