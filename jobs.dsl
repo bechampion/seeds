@@ -6,6 +6,6 @@ job('demo1') {
     steps {
         shell('echo Running job demo1')
         shell('ls -la')
-        shell('cat demo1/demo1file')
+        shell('cat demo1/demo1')
     }
 }
