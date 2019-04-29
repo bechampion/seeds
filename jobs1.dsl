@@ -1,5 +1,5 @@
 def gitUrl = 'https://github.com/bechampion/demo1'
-job('demo2')
+job('demo2') {
     scm {
         git(gitUrl)
     }
