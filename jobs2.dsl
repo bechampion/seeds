@@ -4,7 +4,7 @@ job('demo3') {
         git(gitUrl)
     }
     steps {
-        shell('echo Running job demo2')
+        shell('echo Running job demo3')
         shell('ls -la')
         shell('cat demo1')
     }
